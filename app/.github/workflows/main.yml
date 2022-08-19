@@ -1,5 +1,5 @@
 ---
-name: Checks
+name: Main
 
 on: [push]
 
@@ -21,4 +21,3 @@ jobs:
         run: docker-compose run --rm app sh -c "flake8"
 
 
-# testing docker hub token!
